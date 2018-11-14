@@ -12,13 +12,13 @@ namespace WebAddressBook.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class Employee
+    public partial class Employee1
     {
-        public int EployeeID { get; set; }
+        public int EmployeeID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string EmailAddress { get; set; }
-        public string PhoneNumber { get; set; }
+        public string Position { get; set; }
         public string Office { get; set; }
     }
 }
